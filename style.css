@@ -1,0 +1,22 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+th, td{
+    background-color: chocolate;
+}
+/* div{
+    width: 300px;
+    margin: auto;
+} */
+
+.mycontainer{
+    width: 100%;
+    overflow: auto;
+}
+
+.mycontainer div{
+    width: 33%;
+    float: left;
+}
